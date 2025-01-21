@@ -1,0 +1,131 @@
+header{
+    background-image: url(img/menu-header.png);
+    height: 550px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.logo{
+    display: flex;
+    gap: 20px;
+}
+.logo1{
+    height: 100px;
+}
+.logo2{
+    height: 100px;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-right{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+.Reservation{
+    border: 2px solid white;
+    padding: 11px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: white;
+    cursor: pointer;
+}
+.Reservation:hover{
+    color: #971434;
+    background-color: #FCFBD2;
+}
+.phone{
+    color: white;
+
+}
+.span1{
+    display: block;
+}
+.julie-avatar{
+    height: 50px;
+}
+.explain{
+    color: white;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+.para{
+    font-size: 60%;
+}
+.para1{
+    font-size: 45px;
+}
+
+.fashion{
+    font-size: 20px;
+    border: 2px solid white;
+    width: fit-content;
+    padding:5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    cursor: pointer;
+}
+.fashion:hover{
+    color: #971434;
+    background-color: #FCFBD2;
+}
+#julie{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+nav{
+ padding: 50px;
+
+}
+.post-dish{
+    height: 500px;
+}
+.post{
+    height: 250px;
+}
+.julie{
+    height: 100px;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid black;
+    padding-bottom: 8px;
+    width: fit-content;
+}
+.search-t{
+    width: 10px;
+}
+#search{
+    border: none;  
+}
+.f{
+    padding-right: 70px;
+}
+.Category{
+    font-size: 20px;
+}
+.table{
+    border-top: 2px dashed black;
+    width: fit-content;
+    padding-top: 20px;
+}
+.dish{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+#dish{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.para3{
+    font-size: 40%;
+}

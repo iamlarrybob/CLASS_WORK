@@ -1,0 +1,241 @@
+@font-face {
+    font-family: rufina;
+    src: url(Lato/Lato-Regular.ttf);
+}
+body{
+    background-color: #FCFBD2;
+}
+
+nav{
+    background-image: url(img/menu-header.png);
+    height: 750px;
+    padding: 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+
+.top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 40px;
+    align-items: center;
+}
+
+.right{
+    display: flex;
+    gap: 30px;
+}
+
+.left{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 40px;
+    font-size: 30px;
+    color: white;
+}
+
+
+.logo1{
+    height: 100px;
+}
+
+.logo2{
+    height: 100px;
+}
+
+.Reservation{
+    border: 2px solid white;
+    cursor: pointer;
+    padding: 10px;
+}
+.Reservation:hover{
+background-color: #FCFBD2;
+color: #971434;
+}
+#topic{
+    font-size: 110px;
+    color: white;
+}
+span{
+    display: block;
+    padding: 0;
+}
+.p1{
+    color: white;
+    font-size: 20px;
+}
+
+.reach{
+    padding: 40px;
+}
+
+.image1{
+    height: 500px;
+    width: 500px;
+}
+
+.starters{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.start{
+    font-size: 52px;
+}
+#menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+    margin-left: 40px;
+    
+}
+
+#all{
+    padding: 50px;
+}
+.price1{
+    text-align: end;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 0;
+}
+#Lorem{
+    font-size: 80%;
+}
+
+#line{
+    border-top: 2px dashed;
+}
+
+.border{
+    border: 2px solid black;
+    width: 60px;
+    padding: 15px;
+    padding-left: 70px;
+    padding-right:70px;
+    text-align: left;
+    cursor: pointer;
+}
+
+.border1{
+    padding: 15px;
+    padding-left: 100px;
+    padding-right:100px;
+    background-color: #FCFBD2;
+    border: 2px solid black;
+    cursor: pointer;
+}
+.border2{
+    padding: 15px;
+    padding-left: 100px;
+    padding-right:100px;
+    background-color: #FCFBD2;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.border-class{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 80px;
+    margin-bottom: 40px;
+}
+    
+#Reservation{
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+#Book{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    margin-bottom: 50px;
+}
+.book{
+    width: fit-content;
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    padding-left: 80px;
+    padding-right: 80px;
+    background-color: #1F5A4B;
+}
+
+.book:hover{
+    color: #971434;
+    transition: 1s;
+    background-color: aquamarine;
+}
+
+.main{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #1F5A4B;
+    padding: 60px;
+    margin-bottom: 0px;
+}
+
+.Subscribe{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+
+.email{
+    padding: 15px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+#sub{
+    text-decoration: none;
+    color: white;
+    background-color: #0BC714;
+    padding: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+#sub:hover{
+    background-color: #FCFBD2;
+    color: #0BC714;
+    transition: 1s;
+}
+
+#para{
+    font-size: 50%;
+}
+
+.a{
+    font-size: 60%;
+    margin-bottom: 20px;
+}
+
+.food{
+    font-size: 50px;
+}
+
+.last-row{
+    background-color: #1F5A4B;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+    border-top: 2px dashed white;
+    padding: 60px;
+}
+
+.image4{
+    height: 15px;
+}
